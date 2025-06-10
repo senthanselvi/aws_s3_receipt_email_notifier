@@ -16,9 +16,7 @@ SES_RECIPIENT_EMAIL = os.environ.get('SES_RECIPIENT_EMAIL', 'senthanselvi.m@gmai
 
 def lambda_handler(event, context):
     try:
-        # Get the S3 bucket and key from the event
         bucket = event['Records'][0]['s3']['bucket']['name']
-        # URL decode the key to handle spaces and special characters
         key = urllib.parse.unquote_plus(event['Records'][0]['s3']['object']['key'])
 
         print(f"Processing receipt from {bucket}/{key}")
