@@ -44,6 +44,9 @@ This project automates email notifications when a new file is uploaded to a spec
 
 ![email](https://github.com/user-attachments/assets/68b6f33a-1ebb-4603-b523-af62a5447f4e)
 
+![image](https://github.com/user-attachments/assets/25540b45-4c6f-41ce-96ce-d219fbf9495a)
+
+
 
 
 
